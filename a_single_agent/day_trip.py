@@ -1,7 +1,9 @@
+# core google adk imports
 from google.adk.agents import Agent
 from google.adk.tools import google_search
 from dotenv import load_dotenv
 
+# Loading apis from .env file
 load_dotenv()
 
 root_agent = Agent(
